@@ -1,5 +1,11 @@
+import PasswordGeneratorContainer from './components/password-container/PasswordGeneratorContainer';
+
 const App = () => {
-  return <h1>React</h1>;
+	return (
+		<>
+			<PasswordGeneratorContainer />
+		</>
+	);
 };
 
 export default App;
